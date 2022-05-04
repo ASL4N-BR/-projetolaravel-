@@ -11,7 +11,7 @@
     <title>php e o laragon</title>
     <h1> o começo de tudo</h1>
     <<img src="https://miro.medium.com/max/948/0*s4MoRa7VwTm4Ubok.jpg" class="img-fluid" alt="...">
-    <a href=\https://laragon.org/>Descrição ou texto para clicar</a>
+    <a href="https://laragon.org/">Descrição ou texto para clicar</a>
 
 
 </body>
