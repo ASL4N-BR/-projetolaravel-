@@ -11,8 +11,8 @@ Route::get('/teste', function () {
     return view('teste');
 
 });
-Route::get('produtos\{id}',[ProdutoController:: class, 'show']);
+Route::get('produtos/{id}',[ProdutoController:: class, 'show']);
   
-
+route::get('/posts',[postcontroller::class,'index']);
 
 
