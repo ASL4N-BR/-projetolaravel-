@@ -1,16 +1,16 @@
 <?php
 
 namespace App\Http\Controllers;
-use app/models/post;
-
+use App\Models\Post;
 use Illuminate\Http\Request;
 
 class PostController extends Controller
 {
     public function index(){
-        $posts = post::all();
+        
+        $posts = Post::all();
 
-        return view('admin.posts.viewindex',compact(posts));
+        return view('admin.posts.viewIndex',compact('posts'));
     }
     
     //
@@ -31,7 +31,7 @@ class PostController extends Controller
 
     public function show($id) {
         
-        $post Post::find($id)
+        $post = Post::find($id);
        
         if(!$post){
             

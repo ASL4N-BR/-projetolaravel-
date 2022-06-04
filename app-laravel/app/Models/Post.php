@@ -11,5 +11,5 @@ class Post extends Model
 
     protected $table = 'posts';
 
-    protected $fillable = ['titulo', 'conteudo']
+    protected $fillable = ['titulo', 'conteudo'];
 }
